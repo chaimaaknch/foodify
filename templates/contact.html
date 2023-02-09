@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% load static %}
+
+      {% block content %}
+      <!-- Contact Start -->
+    <br>
+    <br>
+    <div style="border-top: 2px solid #9055A2;"></div> 
+    <br>
+    <br>
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">Contact Us</h1>
+            </div>
+            <div class="row g-5 justify-content-center">
+                <div class="col-lg-5 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="bg-primary text-white d-flex flex-column justify-content-center h-100 p-5">
+                        <h5 class="text-white">Call Us</h5>
+                        <p class="mb-5"><i class="fa fa-phone-alt me-3"></i>+06xxxxxx</p>
+                        <h5 class="text-white">Email Us</h5>
+                        <p class="mb-5"><i class="fa fa-envelope me-3"></i>foodifyesith@gmail.com</p>
+                        <h5 class="text-white">Office Address</h5>
+                        <p class="mb-5"><i class="fa fa-map-marker-alt me-3"></i>ESITH Route El Jadida Km 8, BP : 7731, Casablanca</p>
+                        <h5 class="text-white">Follow Us</h5>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://twitter.com/Foodify_Esith?t=1eOrBgUuIl-Gy5iB8UjWgg&s=09"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://www.facebook.com/profile.php?id=100090363933122&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square btn-outline-light rounded-circle me-1" href="https://instagram.com/foodify_esith?igshid=Yzg5MTU1MDY="><i class="fab fa-instagram"></i></a>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">If you have had a great experience in one of our branches please let us know and name any staff in question if you can. If you haven’t been fully satisfied in any of our branches please get in touch.</p>
+                    <form action="https://formsubmit.co/el/vikada" method="POST">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary rounded-pill py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <hr>
+    <hr>
+    <!-- Google Map Start -->
+    <div class="container-xxl px-0 wow fadeIn" data-wow-delay="0.1s" style="margin-bottom: -6px;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.5430397548457!2d-7.666156084505541!3d33.539264552034574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda62cdcdf8ccb4d%3A0xb1d05917afdba2e1!2sEcole%20Sup%C3%A9rieure%20des%20Industries%20du%20Textile%20et%20Habillement%20ESITH!5e0!3m2!1sfr!2sma!4v1675854544307!5m2!1sfr!2sma" width="1900" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> 
+   
+    
+    <hr>
+    <hr>
+    <!-- Google Map End -->
+    {% endblock content %}
